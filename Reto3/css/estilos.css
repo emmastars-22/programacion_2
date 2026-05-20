@@ -105,14 +105,13 @@ nav li a:hover{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  text-align: center;
   justify-content: space-evenly;
   width: 400px;
   gap: var(--space);
 }
 
 .prod-caract .img_content {
-  width: 150px;
+  width: 160px;
   height: 150px;
 }
 
@@ -125,6 +124,13 @@ nav li a:hover{
 
 .cute-cards {
   display: flex;
+  justify-content: space-evenly;
+}
+
+.cute-cards h1 {
+  display: flex;
+  width: 100%;
+  text-align: center;
 }
 
 .personas {
