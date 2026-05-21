@@ -115,13 +115,6 @@ nav li a:hover{
   height: 150px;
 }
 
-.menciones {
-  display: flex;
-  text-align: center;
-  margin-top: 200px;
-  
-}
-
 .cute-cards {
   display: flex;
   justify-content: space-evenly;
@@ -133,17 +126,26 @@ nav li a:hover{
   text-align: center;
 }
 
-.personas {
-  display: flex;
+.menciones {
+  text-align: center;
+  margin-top: 200px;
+  
+}
 
-  justify-content: center;
-  gap: 10px;
+.contenedor-personas{
+  display: flex;
+}
+
+.personas {
   margin: var(--space);
-  width: 20%;
-  box-shadow: var(--box);
+  width: 330px;
+  box-shadow: 0px 1px 15px 0px rgba(0,0,0,0.75);
   border-radius: 2px 2px 0px 0px;
   text-align: left;
+}
 
+.img-personas{
+  width: 330px;
 }
 
 footer {
