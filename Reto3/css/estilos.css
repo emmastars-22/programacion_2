@@ -64,6 +64,10 @@ nav li a:hover{
   text-align: center;
 }
 
+.main_section h1{
+  width: 850px;
+}
+
 .products{
   background-image: url("../images/curve.png");
   max-height: 50px;
@@ -81,6 +85,7 @@ nav li a:hover{
   background-color: var(--white-color);
   padding: var(--space);
   box-shadow: var(--box);
+  width: 450px;
 }
 .img_content{
   text-align: center;
@@ -118,34 +123,49 @@ nav li a:hover{
 .cute-cards {
   display: flex;
   justify-content: space-evenly;
+  margin: 200px 100px 0px 100px;
+  gap: var(--space);
 }
 
 .cute-cards h1 {
-  display: flex;
   width: 100%;
   text-align: center;
 }
 
 .menciones {
   text-align: center;
-  margin-top: 200px;
+  margin: 200px 0px 100px 0px;
+  border-top: 2px solid rgba(211, 211, 211, 0.25);
   
 }
 
 .contenedor-personas{
   display: flex;
+  margin: 50px 35px 0px 75px;
+}
+
+.contenedor-personas h1, .contenedor-personas p{
+  padding: 0px var(--space);
+}
+
+.contenedor-personas h1{
+  margin-bottom: 7px;
 }
 
 .personas {
   margin: var(--space);
-  width: 330px;
-  box-shadow: 0px 1px 15px 0px rgba(0,0,0,0.75);
-  border-radius: 2px 2px 0px 0px;
+  font-size: var(--normal);
+  width: 280px;
+  box-shadow: 0px 1px 15px 0px rgba(25,25,25,0.50);
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
   text-align: left;
 }
 
 .img-personas{
-  width: 330px;
+  width: 280px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
 }
 
 footer {
